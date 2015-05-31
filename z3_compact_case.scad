@@ -1,7 +1,7 @@
 $fn = 30;
 
 // set this to some multiple of your nozzle width
-shellWidth = 0.8;
+shellWidth = 2.2;
 wallWidth = shellWidth;
 
 // actual dimensions
@@ -10,9 +10,9 @@ wallWidth = shellWidth;
 //depth = 8.4;
 
 // tweaked larger a bit
-length = 128.6;
-width = 66.3;
-depth = 9;
+length = 128;
+width = 65.9;
+depth = 11;
 
 // we're trying to make it as big as the phone plus a wall all around
 xscale = (length+2*wallWidth)/length;
@@ -57,7 +57,7 @@ pHeight = depth*zscale - (lip+wallWidth)*2;
 
 // camera button
 cOffset = 17.5 + wallWidth; // still not 100%
-cLength = 10;
+cLength = 20;
 cWidth = edgeRadius*2+1;
 cHeight = depth*zscale - (lip+wallWidth)*2;
 
